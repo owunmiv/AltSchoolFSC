@@ -1,0 +1,71 @@
+/* General Styles */
+body {
+    font-family: 'Georgia', serif;
+    background-color: #e5e5e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container */
+.container {
+    background-color: #aaa1c8;
+    padding: 80px 150px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+}
+
+/* Card */
+.card {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+    width: 50%;
+    
+}
+
+/* Badge */
+.badge {
+    background-color: #ffeb3b;
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 5px 10px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border-radius: 5px;
+}
+
+/* Image */
+.product-image {
+    width: 100%;
+    display: block;
+}
+
+/* Card Content */
+.card-content {
+    padding: 20px;
+}
+
+h2 {
+    font-size: 22px;
+    margin: 0;
+}
+
+.series {
+    font-size: 14px;
+    color: gray;
+}
+
+p {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #333;
+}

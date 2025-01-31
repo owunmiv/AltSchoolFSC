@@ -1,0 +1,166 @@
+/* Basic Styles */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Navigation */
+nav {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.nav-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 960px;
+    margin: 0 auto;
+}
+.logo img {
+    height: 40px;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav li {
+    margin-left: 20px;
+}
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Main Content */
+main {
+    padding: 40px;
+    max-width: 960px;
+    margin: 0 auto;
+}
+.checkout-area {
+    display: flex;
+    gap: 20px;
+}
+.checkout-box {
+    flex: 1;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.checkout-box h1 {
+    margin-bottom: 30px;
+}
+.checkout-box h2 {
+    margin-bottom: 20px;
+}
+.checkout-box input[type="text"],
+.checkout-box input[type="email"] {
+    width: calc(100% - 22px); /* Adjusted for padding and border */
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.name-inputs {
+    display: flex;
+    gap: 10px;
+    
+}
+
+input{
+    background-color: #EDEFF2;
+}
+
+.card-details {
+    display: flex;
+    gap: 10px;
+}
+.buy-button {
+    background-color: #038E7D; /* Example green */
+    color: #fff;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+.help-link {
+    text-align: center;
+    margin-top: 20px;
+}
+.stripe-logo {
+    text-align: center;
+    margin-top: 30px;
+}
+.stripe-logo img {
+    height: 30px;
+}
+
+/* Pricing Box */
+.pricing-box {
+    flex: 1;
+    background-color: #1179BF; /* Example blue */
+    color: #fff;
+    padding: 40px;
+    border-radius: 5px;
+}
+.plan-details {
+    margin-bottom: 40px;
+}
+.plan-details h3 {
+    margin-bottom: 10px;
+}
+.price {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.price span {
+    font-size: 0.5em;
+}
+.plan-details ul {
+    list-style: none;
+    padding: 0;
+}
+.plan-details li {
+    margin-bottom: 10px;
+}
+.upgrade-link {
+    color: #fff;
+    text-decoration: underline;
+}
+.testimonial {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 5px;
+}
+.testimonial-author {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.testimonial-author img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
